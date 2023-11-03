@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A QUIZ_GAME APP</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;1,300&family=Scheherazade+New:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="MyApp">
+        <div class="img1">
+           <img src="Images/undraw_questions_re_1fy7.svg" alt="">
+        </div>
+        <div class="text">
+            <h3>Quiz App With Fixed Time</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit enim ipsam odio impedit possimus quas, laboriosam animi, iure, sunt molestiae optio autem perferendis,Mollitia.</p>
+            <h3>Exited?????.....</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, minima?</p>
+        </div>
+        <div class="Startbutt">
+            <button>Start Quiz</button>     
+        </div>
+    </div>
+
+    <div class="rulesBox">
+        <div class="rulesTitle" style="color: #6C63FF;">Rules of This Quiz</div>
+        <div class="rulesList">
+            <ol>
+                <li>You will have only <span style="color: #6C63FF;">15 seconds</span> per each question.</li>
+                <li>Once you select your answer, it can't be undone.
+                </li>
+                <li>You can't select any option once time goes off.</li>
+                <li>You can't exit from the Quiz while you're playing</li>
+                <li>You'll get points on the basis of your correct answers.</li>
+            </ol>
+        </div>
+        <div class="buttons">
+             <button class="butt1">Exit Quiz</button>
+             <button class="butt2">Continue</button>
+        </div>
+    </div>
+
+    <div class="Question">
+        <div class="head">
+            <div class="title">Start Exam</div>
+            <div class="TimeCount">
+                <div class="Timeleft"> Time Left</div>
+                <div class="seconds">15</div>
+            </div>
+            <div class="time_line"></div>
+        </div>
+
+        <div class="section">
+            <div  class="question1">
+                <!-- <span>1.What Does HTML Stand For?</span> -->
+            </div>
+            <div class="myOptions">
+            </div>
+        </div>
+
+        <footer>
+            <div class="Ques-no">
+                <!-- <p>1 Of 5</p> -->
+            </div>
+            <button class="Nextbutt">Next</button>
+        </footer>
+
+    </div>
+
+    <div class="resultBox">
+        <div class="img2">
+            <img src="Images/winner.svg" alt="">
+        </div>
+        <div class="confirmation">You Have Finished The Quiz</div>
+        <div class="Score"><span>Carry On 👍 You Got <P> 0 </P> Out Of <p> 5</p></span></div>
+        <div class="lastButt">
+            <button class="restart">Replay</button>
+            <button class="quit">Quit Quiz</button>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+    <script src="question.js"></script>
+</body>
+</html>
